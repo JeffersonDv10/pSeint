@@ -1,0 +1,19 @@
+Crear el pseudócodigo para calcular el área de un trapecio. 
+
+
+    Definir  base_Mayor, base_menor ,altura, area Como Real
+    
+    Escribir "Introducir la Base mayor"
+    Leer base_Mayor
+
+
+    Escribir "Introducir la Base menor"
+    Leer base_menor
+
+
+    Escribir "Introducir la Altura"
+    Leer altura
+    
+    area <- (base_Mayor+base_menor)*altura/2
+        
+   Escribir  " El area del trapecio equivale a ", area, " cm."
