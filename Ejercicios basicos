@@ -1,4 +1,5 @@
-Crear el pseudócodigo para calcular el área de un trapecio. 
+    EJERCICIO 1
+    Crear el pseudócodigo para calcular el área de un trapecio. 
 
 
     Definir  base_Mayor, base_menor ,altura, area Como Real
@@ -16,4 +17,55 @@ Crear el pseudócodigo para calcular el área de un trapecio.
     
     area <- (base_Mayor+base_menor)*altura/2
         
-   Escribir  " El area del trapecio equivale a ", area, " cm."
+   Escribir  " El area del trapecio equivale a ", area
+   
+   
+   EJERCICIO 2
+   Una tienda de artefactos electrodomésticos otorgará descuento del 35% del 
+   importe total de la compra por el cliente. Calcular el importe a pagar por 
+   un cliente que compro cuatro artefactos diferentes  con precios también diferentes.
+   Visualizar el importe a pagar.
+   
+   
+   Definir  celular, televisor, computadora, cocina, importe_total Como Real
+    
+    Escribir "Introducir el precio del Celular"
+    Leer celular
+
+
+    Escribir "Introducir el precio del televisor"
+    Leer televisor
+
+
+    Escribir "Introducir el precio de la computadora"
+    Leer computadora
+
+
+    Escribir "Introducir el precio de la cocina"
+    Leer cocina
+    
+    importe_total <- (celular+televisor+computadora+cocina) * 0.35
+    
+    Escribir  " El importe total a pagar con el descuento del 35% es " , importe_total, " soles."
+    
+    
+    
+    EJERCICIO 3
+    Crear el pseudócodigo para calcular el sueldo mensual de un empleado, considerando que tendrá 
+    un aumento del 12% de su sueldo, bono de 500 soles por escolaridad y un adicional de 9% de su 
+    sueldo por puntualidad. Visualizar el sueldo mensual que recibirá el empleado.
+    
+    
+    
+    Definir  sueldo, sueldo_total Como Real
+    
+    Escribir "Introducir el sueldo del empleado"
+    Leer sueldo
+    
+    sueldo_total <- (sueldo * 0.12) + sueldo
+    
+    sueldo_total <- sueldo_total + 500
+    
+    sueldo_total <- (sueldo * 0.09) + sueldo_total
+    
+    Escribir  " El sueldo total del empleado es " , sueldo_total, " soles."
